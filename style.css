@@ -1,0 +1,43 @@
+/* Darkest green = #3F4B3B
+Dark green = #44633F
+Lighter green = #5A9367
+light green = #5CAB7D
+*/
+
+nav {
+  background-color: #3F4B3B;
+  padding: 20px;
+  text-align: center;
+  overflow: hidden;
+  font-family: arial;
+  margin-bottom: 40px;
+  }
+
+  nav a {
+    padding: 0 20px;
+    float: left;
+    color: #5CAB7D;
+    text-decoration: none;
+  }
+
+ nav a:hover {
+   color: #5A9367;
+   background-color: #44633F;
+ }
+
+p {
+  padding: 0 10px;
+}
+
+.highlight {
+  background-color: #5CAB7D;
+  padding: 10px;
+}
+
+nav.home .home
+nav.projects .projects
+nav.services .services
+nav.contact .contact {
+  color: #5A9367;
+  background-color: #5CAB7D;
+}
