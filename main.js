@@ -28,7 +28,7 @@ var app = new Vue({
         this.wcount = this.w_array.length;
         this.c_array = this.textInput.split("");
         this.ccount = this.c_array.length;
-
+        this.pcount = this.textInput.replace(/\n$/gm, '').split(/\n/).length;
 
 
       }
